@@ -1,0 +1,15 @@
+.not-found-container {
+  color: #ffffff;
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.not-fount-heading,
+.not-fount-note {
+  text-align: center;
+}

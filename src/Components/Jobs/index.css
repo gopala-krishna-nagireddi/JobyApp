@@ -1,0 +1,158 @@
+.jobs-page {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.jobs-container {
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-container {
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .profile-filters-container {
+    width: 30%;
+  }
+
+  .jobs-list-container {
+    width: 68%;
+  }
+}
+
+.search-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #7e858e;
+  border-radius: 5px;
+}
+
+.search-lg {
+  display: none;
+  margin-top: 20px;
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .search-sm {
+    display: none;
+  }
+
+  .search-lg {
+    display: flex;
+  }
+}
+
+.search-input {
+  background-color: transparent;
+  font-size: 18px;
+  padding: 5px 10px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.search-btn {
+  color: #ffffff;
+  background-color: #272727;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+}
+
+.hr-line {
+  border: 1px solid #7e858e;
+}
+
+.filters-container {
+  color: #ffffff;
+  margin: 30px 0;
+}
+
+.filters-heading {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.filters-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.filter-item {
+  margin-bottom: 10px;
+}
+
+.filter-input {
+  width: 16px;
+  height: 16px;
+}
+
+.filter-label {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.jobs-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.jobs-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.no-jobs-container,
+.jobs-failure-container {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+.no-jobs-img,
+.job-failure-img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .no-jobs-img,
+  .job-failure-img {
+    width: 350px;
+  }
+}
+
+.no-jobs-heading,
+.jobs-failure-heading {
+  text-align: center;
+}
+
+.no-jobs-note,
+.jobs-failure-note {
+  margin: 0;
+  text-align: center;
+}
+
+.jobs-retry-btn {
+  color: #ffffff;
+  background-color: #6366f1;
+  padding: 8px 20px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+}
